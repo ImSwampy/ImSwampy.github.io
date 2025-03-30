@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "Hack";
+    font-style: normal;
+    src: url("../fonts/Hack-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Hack";
+    font-weight: bold;
+    src: url("../fonts/Hack-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Hack";
+    font-style: italic;
+    src: url("../fonts/Hack-Italic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Hack";
+    font-style: italic;
+    font-weight: bold;
+    src: url("../fonts/Hack-BoldItalic.ttf") format("truetype");
+}
+
+
+:root {
+    --background-color: #1e2122;
+    --default-color: #a1a1a1;
+    --shade-color: #7e7e7e;
+    --accent-color: #10FF30;
+    --light-accent-color: #74c878;
+}
+
+* {
+    font-family: "Hack", monospace;
+    background-color: var(--background-color);
+    color: var(--default-color);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.accent_color {
+    color: var(--accent-color);
+}
+
+.light_accent_color {
+    color: var(--light-accent-color);
+}
+
+.shade_color {
+    color: var(--shade-color);
+    font-size: 94%;
+}
+
